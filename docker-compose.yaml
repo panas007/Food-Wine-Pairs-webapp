@@ -10,7 +10,7 @@ services:
     depends_on:
         - db
     volumes:
-        - ./php/src:/var/www/html/
+        - ./app/src:/var/www/html/
     ports:
         - 80:80
     networks:
@@ -29,6 +29,7 @@ services:
         - "9906:3306"
     volumes:
         - mysqlDB_data:/var/lib/mysql
+        - ./mysqldb:/docker-entrypoint-initdb.d 
     networks:
       dock_net_ing:
           ipv4_address: 192.168.1.2
