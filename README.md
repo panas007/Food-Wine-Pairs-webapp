@@ -1,8 +1,8 @@
 # Food-Wine-Pairs-webapp
-Web app for food and wine pairings on cloud using containers (docker)
+Web app for food and wine pairings using containers (docker) in GCP
 
 The application includes the microservices listed bellow:
-- Application logic (php:7.4.11-apache)
+- Application logic (php:8.0-apache)
 - MySQL 
 - phpMyAdmin
 
