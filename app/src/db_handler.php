@@ -6,7 +6,7 @@
 $server="db";
 $dbUsername='root';
 $dbpPassword="MYSQL_ROOT_PASSWORD";
-$dbName="WinesDB";
+$dbName="MYSQL_DATABASE";
 
 
 
