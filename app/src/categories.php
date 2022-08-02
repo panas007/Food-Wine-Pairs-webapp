@@ -14,6 +14,7 @@ require_once 'ipdata.php';
 	<link rel="shortcut icon" type="image/jpg" href="images/favic4.png"/>
 
 	
+	
 
 	<!-- Css -->
 	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" />
@@ -216,7 +217,7 @@ require_once 'ipdata.php';
 					        <li>
 					            <div class="products">
 									<a href="seafoodCategory.php">
-										<img src="images/Seafood.jpg" alt="">
+										<img src="images/seafood.jpg" alt="">
 									</a>
 									<a href="seafoodCategory.php">
 										<h4>Seafood</h4>
