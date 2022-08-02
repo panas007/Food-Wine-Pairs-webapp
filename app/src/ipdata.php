@@ -33,7 +33,7 @@ if (!isset($_SESSION['ipaddr'])){
             $_SESSION['country'] = $clientDetails->country;
     }
     
-    file_put_contents('testfile.txt', print_r( $clientDetails, TRUE));
+    //file_put_contents('testfile.txt', print_r( $clientDetails, TRUE)); save client details to file
 
     if (!is_null($_SESSION['ipaddr'])){
 
