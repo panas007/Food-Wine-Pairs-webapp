@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db
--- Generation Time: Aug 02, 2022 at 12:42 AM
+-- Generation Time: Aug 01, 2022 at 12:04 AM
 -- Server version: 8.0.27
 -- PHP Version: 7.4.20
 
@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `WinesDB`
 --
-CREATE DATABASE IF NOT EXISTS `WinesDB` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
-USE `WinesDB`;
 
 -- --------------------------------------------------------
 
@@ -257,9 +255,7 @@ INSERT INTO `usersips` (`idx`, `user_ip_address`, `country`, `date_time`) VALUES
 (15, '192.168.1.1', NULL, '2022-07-28 12:28:56'),
 (16, '192.168.1.1', NULL, '2022-07-30 00:41:13'),
 (17, '192.168.1.1', NULL, '2022-07-30 23:32:13'),
-(18, '192.168.1.1', NULL, '2022-07-31 23:55:16'),
-(19, '192.168.1.1', NULL, '2022-08-01 00:48:10'),
-(20, '192.168.1.1', NULL, '2022-08-02 00:32:52');
+(18, '192.168.1.1', NULL, '2022-07-31 23:55:16');
 
 -- --------------------------------------------------------
 
@@ -380,7 +376,7 @@ ALTER TABLE `wines`
 -- AUTO_INCREMENT for table `usersips`
 --
 ALTER TABLE `usersips`
-  MODIFY `idx` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `idx` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
