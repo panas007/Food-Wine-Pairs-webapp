@@ -6,6 +6,7 @@ The application includes the microservices listed bellow:
 - MySQL 
 - phpMyAdmin
 
+#
 To run the web application you need to install Docker.
 
 In the terminal (or powershell on windows) run
@@ -20,7 +21,7 @@ You can manage MySQL from phpMyAdmin :
 
 - http://localhost:8080
 
-
+#
 If you run the docker in the GCP you can access the web-app and keyrock in:
 
 - http://EXTERNAL-IP/:80
