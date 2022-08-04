@@ -29,3 +29,6 @@ If you run the docker in the GCP you can access the web-app and keyrock in:
 - http://EXTERNAL-IP:8080
   
 Where external ip is given by GCP
+
+#
+The website also stores users' IPs along with the country of origin (for later use). 
