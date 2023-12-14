@@ -22,7 +22,7 @@ You can manage MySQL from phpMyAdmin :
 - http://localhost:8080
 
 #
-If you run the docker in the GCP you can access the web-app and keyrock in:
+If you run the docker in the GCP you can access the web-app:
 
 - http://EXTERNAL-IP/:80
   
